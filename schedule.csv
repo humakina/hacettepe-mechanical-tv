@@ -1,0 +1,62 @@
+﻿day,level,year,code,title,instructor,room,start,end
+Monday,Undergraduate,1,MAT123,Math I,Mustafa Türkyılmazoğlu,B408,10:40,12:30
+Monday,Undergraduate,1,İNG111,,,A210,13:40,16:30
+Monday,Undergraduate,2,MMÜ205,Thermodynamics I,Özgür Ekici,B302,08:40,10:30
+Monday,Undergraduate,2,MMÜ209,Materials Science,Benat Koçkar,B312,10:40,11:30
+Monday,Undergraduate,2,MAT235,Engineering Mathematics I,Yaşar Sözen,B312,12:40,14:30
+Monday,Undergraduate,2,ELE296,Electronic Circuits and Systems,,B312,14:40,17:30
+Monday,Undergraduate,3,MMÜ303,Fluid Mechanics I,Murat Köksal,B302,10:40,12:30
+Monday,Undergraduate,3,MMÜ313,Theory of Machines,Volkan Parlaktaş,B302,13:40,16:30
+Monday,Undergraduate,4,MMÜ407,Stress Analysis,Barış Sabuncuoğlu,B310,09:40,12:30
+Monday,Undergraduate,4,OMÜ329,Principles of Chassis & Drivetrain Components,Engin Tanık,B309,09:40,12:30
+Monday,Undergraduate,4,MMÜ418,Introduction to Finite Element Method,Mehmet Nurullah Balcı,A209,13:40,16:30
+Monday,Undergraduate,4,MÜH401,Multi-Discplined Project Work,Hakan Doğan,B302,16:40,18:30
+Monday,Undergraduate,Service,MMÜ251,Materials Science,Benat Koçkar,B309,12:40,14:30
+Monday,Undergraduate,Service,MMÜ261,Engineering Mechanics,Hamit Tekin,B309,14:40,15:30
+Tuesday,Undergraduate,1,MAT123,Math I,Mustafa Türkyılmazoğlu,B408,10:40,12:30
+Tuesday,Undergraduate,1,FİZ127,Physics I,,B312,14:40,17:30
+Tuesday,Undergraduate,2,MMÜ208,Mechanics of Materials,Bora Yıldırım,B312,09:40,11:30
+Tuesday,Undergraduate,2,AİT203-79,,,B408,12:40,14:30
+Tuesday,Undergraduate,2,AİT203-81,,,Not specified,14:40,16:30
+Tuesday,Undergraduate,3,MMÜ319,System Dynamics and Control,Emir Kutluay,B302,12:40,15:30
+Tuesday,Undergraduate,4,MMÜ413,Thermal Engineering and Design,Tanılay Özdemir,B302,08:40,11:30
+Tuesday,Undergraduate,4,OMÜ443,Principles of Vehicle Crash Safety,Selçuk Himmetoğlu,B310,11:40,14:30
+Tuesday,Undergraduate,4,EMÜ365,Engineering Economy,,D4 (IE Dept.),13:40,16:30
+Tuesday,Undergraduate,4,OMÜ409,Mechatronics,Bilsay Sümer,B309,14:40,17:30
+Tuesday,Undergraduate,Service,MMÜ261,Engineering Mechanics,Hamit Tekin,B309,09:40,11:30
+Tuesday,Undergraduate,Service,MMÜ251,Materials Science,Benat Koçkar,B309,11:40,12:30
+Wednesday,Undergraduate,1,MÜH103/MÜH104,,,B312,18:40,20:30
+Wednesday,Undergraduate,2,MMÜ205,Thermodynamics I,Özgür Ekici,B302,08:40,10:30
+Wednesday,Undergraduate,2,MMÜ203,Statics,Barış Sabuncuoğlu,B312,10:40,12:30
+Wednesday,Undergraduate,2,MMÜ209,Materials Science,Benat Koçkar,B312,13:40,15:30
+Wednesday,Undergraduate,2,MMÜ208,Mechanics of Materials,Bora Yıldırım,B312,15:40,17:30
+Wednesday,Undergraduate,3,MMÜ303,Fluid Mechanics I,Murat Köksal,B302,10:40,12:30
+Wednesday,Undergraduate,3,MMÜ317,Design of Machine Elements,Mehmet Nurullah Balcı,B302,13:40,16:30
+Wednesday,Undergraduate,4,MMÜ493,Special Topics in Mes,Hakan Doğan,B309,08:40,11:30
+Wednesday,Undergraduate,4,MMÜ402,Gas Dynamics,Ramin Barzegar,B309,11:40,14:30
+Wednesday,Undergraduate,4,MMÜ415,Metal Forming Practice I,Okan Görtan,B309,14:40,17:30
+Thursday,Undergraduate,1,MAT123,Math I,Mustafa Türkyılmazoğlu,B408,08:40,10:30
+Thursday,Undergraduate,1,TKD103,,,B408,16:40,18:30
+Thursday,Undergraduate,2,MMÜ203,Statics,Barış Sabuncuoğlu,B312,10:40,11:30
+Thursday,Undergraduate,2,MAT235,Engineering Mathematics I,Yaşar Sözen,B312,12:40,14:30
+Thursday,Undergraduate,4,MMÜ427,Applied Computational Fluid Dynamics,Özgür Ekici,B309,08:40,11:30
+Thursday,Undergraduate,4,MMÜ451,Control Systems Design,Can U. Doğruer,B302,11:40,14:30
+Thursday,Undergraduate,4,MMÜ406,Renewable Energy Systems,Tanılay Özdemir,B309,11:40,14:30
+Thursday,Undergraduate,4,MMÜ/OMÜ403,Vehicle Dynamics and Control,S. Çağlar Başlamışlı,B302,14:40,17:30
+Thursday,Undergraduate,4,MMÜ466,Computational Multi-body Dynamics,Selçuk Himmetoğlu,B310,14:40,17:30
+Friday,Undergraduate,1,KİM121,,,Chemistry Dept.,08:40,11:30
+Friday,Undergraduate,1,KİM127,,,B312,14:40,17:30
+Friday,Undergraduate,2,MMÜ204,Dynamics,Engin Tanık,B302,09:40,12:30
+Friday,Undergraduate,2,MMÜ200,,,Machine Shop,13:40,15:30
+Monday,Graduate,,MMÜ774,Mechanical Characterization of Composite Materials,Hamit Tekin,A207,09:40,12:30
+Monday,Graduate,,MMÜ602/MMÜ701,Numerical Methods / Applied Numerical Analysis,Selçuk Himmetoğlu,B310,13:40,16:30
+Tuesday,Graduate,,MMÜ710,Flexible Multibody Dynamics,Can U. Doğruer,A207,09:40,12:30
+Tuesday,Graduate,,MMÜ751,Linear Matrix Inequalities Methods in Control Systems,S. Çağlar Başlamışlı,A207,13:40,16:30
+Wednesday,Graduate,,MMÜ725,Innovative Joining Technologies,Okan Görtan,A207,09:40,12:30
+Wednesday,Graduate,,MMÜ727,Advanced Experimental Vibration Analysis and Control,Bilsay Sümer,A207,13:40,16:30
+Thursday,Graduate,,MMÜ721,Finite Element Application of Fracture Mechanics,Mehmet Nurullah Balcı,A207,09:40,12:30
+Thursday,Graduate,,MMÜ722,Solid Mechanics Applications of Finite Element Method,Bora Yıldırım,A207,13:40,16:30
+Thursday,Graduate,,MMÜ716,Advanced State Space Control Theory,Emir Kutluay,A209,13:40,16:30
+Friday,Graduate,,MMÜ707,Incompressible Flows,Murat Köksal,B309,08:40,11:30
+Friday,Graduate,,MMÜ740,Machining Dynamics,Hakan Doğan,A207,09:40,12:30
+Friday,Graduate,,MMÜ719,Advanced Engineering Thermodynamics,Ramin Barzegar,A207,13:40,16:30
