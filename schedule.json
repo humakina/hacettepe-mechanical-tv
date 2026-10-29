@@ -30,7 +30,7 @@
       "day": "Monday",
       "level": "Undergraduate",
       "year": "1",
-      "code": "İNG111",
+      "code": "ING111",
       "title": "",
       "instructor": "",
       "room": "A210",
@@ -139,17 +139,6 @@
     {
       "day": "Monday",
       "level": "Undergraduate",
-      "year": "4",
-      "code": "MÜH401",
-      "title": "Multi-Discplined Project Work",
-      "instructor": "Hakan Doğan",
-      "room": "B302",
-      "start": "16:40",
-      "end": "18:30"
-    },
-    {
-      "day": "Monday",
-      "level": "Undergraduate",
       "year": "Service",
       "code": "MMÜ251",
       "title": "Materials Science",
@@ -212,17 +201,6 @@
       "room": "B408",
       "start": "12:40",
       "end": "14:30"
-    },
-    {
-      "day": "Tuesday",
-      "level": "Undergraduate",
-      "year": "2",
-      "code": "AİT203-81",
-      "title": "",
-      "instructor": "",
-      "room": "Not specified",
-      "start": "14:40",
-      "end": "16:30"
     },
     {
       "day": "Tuesday",
