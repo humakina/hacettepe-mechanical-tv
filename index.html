@@ -134,8 +134,8 @@ function sizeFocusCards(){
  const maxCard=Math.min(148,Math.floor(room/(liveRows+nextRows)));
  stage.style.setProperty('--tv-card-height',Math.max(62,maxCard)+'px');
 }
-function render(){const n=ist();const day=inLive?n.weekday:$('day').value;const tm=inLive?n.hour+':'+n.minute:$('time').value;const at=mins(tm);const level=$('level').value;
- $('clock').textContent=tm;$('date').textContent=inLive?new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Istanbul',weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date()):day+' · Simulated';$('modeLabel').textContent=inLive?'Real time':'Simulation';$('heading').textContent=day+' · Course schedule';
+function render(){const n=ist();const day=inLive?n.weekday:$('day').value;const tm=inLive?n.hour+':'+n.minute:$('time').value;const at=mins(tm);const level=$('level')?.value || 'all';
+ $('clock').textContent=tm;$('date').textContent=inLive?new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Istanbul',weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date()):day+' · Simulated';if($('modeLabel')) $('modeLabel').textContent=inLive?'Real time':'Simulation';$('heading').textContent=day+' · Course schedule';
  const key=n.year+'-'+n.month+'-'+n.day;const closed=inLive&&db.closures?.find(x=>x.date===key);let rows=db.courses.filter(c=>c.day===day&&(level==='all'||c.level===level));if(inLive){const ex=(db.exceptions||[]).filter(x=>x.date===key);rows=rows.filter(c=>!ex.some(e=>e.code===c.code&&e.start===c.start&&e.cancelled)).map(c=>({...c,...(ex.find(e=>e.code===c.code&&e.start===c.start)||{})}));}if(closed)rows=[];
  rows.sort((a,b)=>mins(a.start)-mins(b.start)||a.code.localeCompare(b.code));const ongoing=rows.filter(c=>mins(c.start)<=at&&at<mins(c.end));const next=rows.filter(c=>mins(c.start)>at&&mins(c.start)<=at+60);const later=rows.filter(c=>mins(c.start)>at+60);
  $('liveCount').textContent=ongoing.length+' course'+(ongoing.length===1?'':'s');$('nextCount').textContent=next.length+' course'+(next.length===1?'':'s');$('laterCount').textContent=later.length+' remaining';
